@@ -1,0 +1,159 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding: 1rem 0 1rem 0;
+  border: solid black 5px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  padding: 1rem 0 1rem 0;
+  margin: 1rem auto;
+  width: 1000px;
+  border: solid black 5px;
+}
+
+.comsats-logo {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.image-box {
+  width: 8rem;
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+  border: solid black 2px;
+}
+
+.faculty-heading {
+  background-color: black;
+  color: white;
+}
+
+.header-h3 {
+  text-align: center;
+}
+
+.line-gap {
+  border-top: dashed 4px;
+  width: 850px;
+  margin: 15px 15px;
+}
+
+.form-heading {
+  font-weight: bold;
+}
+
+.alternative-text {
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+}
+
+.NIC {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+}
+
+.DOB-NIC {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 140px;
+  margin-top: -10px;
+}
+
+.DMY {
+  text-align: right;
+  margin-right: 30px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.email-list {
+  line-height: 30px;
+}
+
+.email-gender {
+  margin-top: 10px;
+  display: flex;
+  align-items: top;
+  justify-self: center;
+  gap: 200px;
+}
+
+.City-PostelAddress {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+}
+
+.Postel-Address {
+  width: 700px;
+}
+
+.telephone {
+  margin-top: 10px;
+}
+
+.telephone-div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: left;
+}
+
+.AcademicTable,
+.EmploymentTable {
+  margin-bottom: 20px;
+}
+
+.AcademicTable,
+.AcademicRow,
+.AcademicData,
+.EmploymentTable,
+.EmploymentRow,
+.EmploymentData {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.AcademicRow {
+  height: 30px;
+  width: 160px;
+}
+
+.AcademicData {
+  height: 30px;
+  width: 160px;
+}
+
+.EmploymentRow {
+  height: 30px;
+  width: 200px;
+}
+
+.EmploymentData {
+  height: 30px;
+  width: 200px;
+}
+
+.End {
+  display: flex;
+  gap: 400px;
+  align-items: center;
+  justify-content: center;
+}

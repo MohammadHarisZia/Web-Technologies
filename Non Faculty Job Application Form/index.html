@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non-Faculty Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/COMSATS.jpg" alt="Comsats Logo" class="comsats-logo" />
+      <div class="headings">
+        <h3 class="header-h3 faculty-heading">
+          Non-Faculty Job Application Form
+        </h3>
+        <h3 class="header-h3">COMSATS Institute of Information Technology</h3>
+      </div>
+      <div class="image-box">
+        <p>Affix a recent photograph 3cm x 5cm</p>
+        <input type="file" id="img" name="img" accept="image/*" />
+      </div>
+    </header>
+    <form action="none">
+      <ol>
+        <li>
+          <label for="Post" class="form-heading"> Post Applied for </label>
+          <input size="115px" type="text" name="text" id="Post" />
+          <p class="alternative-text">(mention only one position)</p>
+        </li>
+        <li>
+          <label for="department" class="form-heading"> Department </label>
+          <input size="120px" type="text" name="deparment" id="deparment" />
+          <p class="alternative-text">(mention department, if required)</p>
+        </li>
+        <li>
+          <label class="form-heading">Campus :</label>
+          <label for="Lahore">Lahore</label>
+          <input type="radio" id="Lahore" name="Campus" value="Lahore" />
+          <label for="Attock">Attock</label>
+          <input type="radio" id="Attock" name="Campus" value="Attock" />
+          <p class="alternative-text">(please tick(✓) only one choice)</p>
+        </li>
+        <hr class="line-gap" />
+        <li>
+          <label for="Name in full" class="form-heading"> Name in Full </label>
+          <input
+            size="120px"
+            type="text"
+            name="Name in full"
+            id="Name in Full"
+          />
+          <p class="alternative-text">(use CAPITALS LETTERS)</p>
+        </li>
+        <li>
+          <label for="Father Name" class="form-heading"> Father Name </label>
+          <input size="120px" type="text" name="Father Name" id="Father Name" />
+          <p class="alternative-text">(use CAPITALS LETTERS)</p>
+        </li>
+        <p class="DMY">DD MM YY</p>
+        <div class="DOB-NIC">
+          <li>
+            <div class="NIC">
+              <label for="NIC" class="form-heading"> N.I.C. #.</label>
+              <table>
+                <tr>
+                  <td>
+                    <label for="num1"></label>
+                    <input class="cell" type="number" id="num1" />
+                  </td>
+                  <td>
+                    <label for="num2"></label>
+                    <input class="cell" type="number" id="num2" />
+                  </td>
+                  <td>
+                    <label for="num3"></label>
+                    <input class="cell" type="number" id="num3" />
+                  </td>
+                  <td>
+                    <label for="num4"></label>
+                    <input class="cell" type="number" id="num4" />
+                  </td>
+                  <td>
+                    <label for="num5"></label>
+                    <input class="cell" type="number" id="num5" />
+                  </td>
+                  <td>
+                    <p>-</p>
+                  </td>
+                  <td>
+                    <label for="num6"></label>
+                    <input class="cell" type="number" id="num6" />
+                  </td>
+                  <td>
+                    <label for="num7"></label>
+                    <input class="cell" type="number" id="num7" />
+                  </td>
+                  <td>
+                    <label for="num8"></label>
+                    <input class="cell" type="number" id="num8" />
+                  </td>
+                  <td>
+                    <label for="num9"></label>
+                    <input class="cell" type="number" id="num9" />
+                  </td>
+                  <td>
+                    <label for="num10"></label>
+                    <input class="cell" type="number" id="num10" />
+                  </td>
+                  <td>
+                    <label for="num11"></label>
+                    <input class="cell" type="number" id="num11" />
+                  </td>
+                  <td>
+                    <label for="num12"></label>
+                    <input class="cell" type="number" id="num12" />
+                  </td>
+                  <td>
+                    <p>-</p>
+                  </td>
+                  <td>
+                    <label for="num13"></label>
+                    <input class="cell" type="number" id="num13" />
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </li>
+
+          <li>
+            <label for="DOB" class="form-heading"> Date Of Birth </label>
+            <input class="cell" type="number" name="Day" id="Day" />
+            <span>/</span>
+            <input class="cell" type="number" name="Month" id="Month" />
+            <span>/</span>
+            <input class="cell" type="number" name="Year" id="Year" />
+          </li>
+        </div>
+
+        <div class="email-gender">
+          <li class="email-list">
+            <label for="Email" class="form-heading"> Email </label>
+            <input size="60px" type="email" name="Email" id="Email" />
+            <p class="alternative-text">
+              (Mondatory, most of the future correspondence will be done using
+              email address)
+            </p>
+          </li>
+          <li>
+            <label class="form-heading">Gender :</label>
+            <input type="radio" id="Male" name="gender" value="Male" />
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female" />
+            <label for="Female">Female</label>
+          </li>
+        </div>
+        <div class="City-PostelAddress">
+          <li class="Postel-Address">
+            <label for="Postel Address" class="form-heading">
+              Correspondence Postel Address:</label
+            >
+            <input
+              size="90px"
+              type="text"
+              name="Postel Address1"
+              id="Postel Address1"
+            />
+
+            <input
+              size="50px"
+              type="text"
+              name="Postel Address2"
+              id="Postel Address2"
+            />
+          </li>
+          <div>
+            <label for="City" class="form-heading"> City:</label>
+            <input size="10px" type="text" name="City" id="City" />
+          </div>
+        </div>
+        <li class="telephone">
+          <div class="telephone-div">
+            <label for="Telephone" class="form-heading"> Telephone No:</label>
+
+            <label for="Offline">(Off)</label>
+            <input size="10px" type="text" name="Offline" id="Offline" />
+            <label for="Residence">(Res)</label>
+            <input size="10px" type="text" name="Residence" id="Residence" />
+            <label for="Mobile">(Mobile)</label>
+            <input size="10px" type="text" name="Mobile" id="Mobile" />
+          </div>
+          <p class="alternative-text">(CityCode PhoneNo.)</p>
+        </li>
+        <li>
+          <label for="Academic Record" class="form-heading">
+            Academic Record:</label
+          >
+          <span class="alternative-text"
+            >(Please start from highest qualification and go down in descending
+            order)</span
+          >
+        </li>
+        <hr class="line-gap" />
+        <table class="AcademicTable">
+          <tr class="AcademicRow">
+            <th class="AcademicData">Degree Held</th>
+            <th class="AcademicData">Year of award</th>
+            <th class="AcademicData">Field</th>
+            <th class="AcademicData">Board/University</th>
+            <th class="AcademicData">Grade / Div</th>
+          </tr>
+          <tr class="AcademicRow">
+            <td class="AcademicData">
+              <input type="text" name="Degree1" id="Degree1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Year1" id="Year1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Field1" id="Field1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="University1" id="University1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Grade1" id="Grade1" />
+            </td>
+          </tr>
+          <tr class="AcademicRow">
+            <td class="AcademicData">
+              <input type="text" name="Degree1" id="Degree1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Year1" id="Year1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Field1" id="Field1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="University1" id="University1" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Grade1" id="Grade1" />
+            </td>
+          </tr>
+          <tr class="AcademicRow">
+            <td class="AcademicData">
+              <input type="text" name="Degree2" id="Degree2" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Year2" id="Year2" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Field2" id="Field2" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="University2" id="University2" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Grade2" id="Grade2" />
+            </td>
+          </tr>
+          <tr class="AcademicRow">
+            <td class="AcademicData">
+              <input type="text" name="Degree3" id="Degree3" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Year3" id="Year3" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Field3" id="Field3" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="University3" id="University3" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Grade3" id="Grade3" />
+            </td>
+          </tr>
+          <tr class="AcademicRow">
+            <td class="AcademicData">
+              <input type="text" name="Degree4" id="Degree4" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Year4" id="Year4" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Field4" id="Field4" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="University4" id="University4" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Grade4" id="Grade4" />
+            </td>
+          </tr>
+          <tr class="AcademicRow">
+            <td class="AcademicData">
+              <input type="text" name="Degree5" id="Degree5" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Year5" id="Year5" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Field5" id="Field5" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="University5" id="University5" />
+            </td>
+            <td class="AcademicData">
+              <input type="text" name="Grade5" id="Grade5" />
+            </td>
+          </tr>
+        </table>
+        <li>
+          <label for="Employment History:" class="form-heading">
+            Employment History:</label
+          >
+          <span class="alternative-text"
+            >(Please start from your most recent job and go down in descending
+            order)</span
+          >
+        </li>
+        <hr class="line-gap" />
+        <table class="EmploymentTable">
+          <tr class="EmploymentRow">
+            <th class="EmploymentData">Name of Organization</th>
+            <th class="EmploymentData">Post held with Pay Scale</th>
+            <th class="EmploymentData">Job Profile</th>
+            <th class="EmploymentData">Period (From-to)</th>
+          </tr>
+          <tr class="EmploymentRow">
+            <td class="EmploymentData">
+              <input type="text" name="Organization1" id="Organization1" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="PayScale1" id="PayScale1" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="JobProfile1" id="JobProfile1" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="Period1" id="Period1" />
+            </td>
+          </tr>
+          <tr class="EmploymentRow">
+            <td class="EmploymentData">
+              <input type="text" name="Organization2" id="Organization2" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="PayScale2" id="PayScale2" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="JobProfile2" id="JobProfile2" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="Period2" id="Period2" />
+            </td>
+          </tr>
+          <tr class="EmploymentRow">
+            <td class="EmploymentData">
+              <input type="text" name="Organization3" id="Organization3" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="PayScale3" id="PayScale3" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="JobProfile3" id="JobProfile3" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="Period3" id="Period3" />
+            </td>
+          </tr>
+          <tr class="EmploymentRow">
+            <td class="EmploymentData">
+              <input type="text" name="Organization4" id="Organization4" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="PayScale4" id="PayScale4" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="JobProfile4" id="JobProfile4" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="Period4" id="Period4" />
+            </td>
+          </tr>
+          <tr class="EmploymentRow">
+            <td class="EmploymentData">
+              <input type="text" name="Organization5" id="Organization5" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="PayScale5" id="PayScale5" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="JobProfile5" id="JobProfile5" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="Period5" id="Period5" />
+            </td>
+          </tr>
+          <tr class="EmploymentRow">
+            <td class="EmploymentData">
+              <input type="text" name="Organization6" id="Organization6" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="PayScale6" id="PayScale6" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="JobProfile6" id="JobProfile6" />
+            </td>
+            <td class="EmploymentData">
+              <input type="text" name="Period6" id="Period6" />
+            </td>
+          </tr>
+        </table>
+      </ol>
+      <div class="End">
+        <span>
+          <label for="Date"> Dated: </label>
+          <input type="text" name="Date" id="Date" />
+        </span>
+        <span>
+          <label for="Signature"> Signature: </label>
+          <input type="text" name="Signature" id="Signature" />
+        </span>
+      </div>
+    </form>
+  </body>
+</html>
