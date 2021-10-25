@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="/FA19-BCS-037-Assignment1-5A/CSS/styles.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body class="body">
+    <div class="container">
+      <header class="header row-flex">
+        <i class="ph-calendar"></i>
+        <h1>Make Room Reservations in Minutes</h1>
+      </header>
+      <form action="" class="form">
+        <div class="column-flex margin-bottom">
+          <label for="">Please Enter Your Name</label>
+          <div class="textfield row-flex name">
+            <i class="ph-user"></i>
+            <input
+              class="inputfield"
+              type="text"
+              id="name"
+              placeholder="John Doe/Jane Doe"
+            />
+          </div>
+        </div>
+        <div class="column-flex margin-bottom">
+          <div class="row-flex flex-space-between">
+            <div>
+              <label for="">Email Address</label>
+              <div class="textfield row-flex">
+                <i class="ph-user"></i>
+                <input
+                  class="inputfield half-text-width"
+                  type="email"
+                  id="email"
+                  placeholder="JohnDoe@gmail.com"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="">Telephone/Mobile</label>
+              <div class="textfield row-flex">
+                <i class="ph-user"></i>
+                <input
+                  class="inputfield half-text-width"
+                  type="tel"
+                  id="tel"
+                  placeholder="Telephone/Mobile"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-flex margin-bottom">
+          <div class="row-flex flex-space-between">
+            <div>
+              <label for="">Number of Adults</label>
+              <div class="textfield row-flex">
+                <i class="ph-user"></i>
+                <input
+                  class="inputfield half-text-width"
+                  type="number"
+                  id="adults"
+                  placeholder="Number of Adults"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="">Number of Children</label>
+              <div class="textfield row-flex">
+                <i class="ph-user"></i>
+                <input
+                  class="inputfield half-text-width"
+                  type="number"
+                  id="children"
+                  placeholder="Number of Children"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-flex margin-bottom">
+          <div class="row-flex flex-space-between">
+            <div>
+              <label for="">Check In Date</label>
+              <div class="textfield row-flex">
+                <i class="ph-user"></i>
+                <input
+                  class="inputfield half-text-width"
+                  type="date"
+                  id="check-in-date"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="">Check Out Date</label>
+              <div class="textfield row-flex">
+                <i class="ph-user"></i>
+                <input
+                  class="inputfield half-text-width"
+                  type="date"
+                  id="check-out-date"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row-flex flex-space-between line-heading">
+          <hr class="breakline" />
+          <span class="span"
+            >PLEASE ANSWER THESE QUESTIONS FOR A PLEASANT STAY</span
+          >
+          <hr class="breakline" />
+        </div>
+        <div class="row-flex centered toggle">
+          <div class="row-flex centered">
+            <div class="toggle-container row-flex">
+              <input type="checkbox" />
+              <div class="slider round"></div>
+            </div>
+            <span>Will you be bringing a Pet?</span>
+          </div>
+          <div class="row-flex centered">
+            <div class="toggle-container row-flex">
+              <input type="checkbox" />
+              <div class="slider round"></div>
+            </div>
+            <span>Do you need us to pick you up?</span>
+          </div>
+        </div>
+        <div class="textarea-container">
+          <label class="label-textarea" for="textarea"
+            >Anything else we should know about?</label
+          >
+          <div class="bordered-textarea">
+            <textarea
+              name="textarea"
+              id="tell-us-more"
+              cols="116"
+              rows="10"
+              class="textarea"
+              placeholder="Let us know about any special accomodations needs"
+            ></textarea>
+            <hr />
+            <p><strong> Please: </strong> Be as descriptive as possible</p>
+          </div>
+        </div>
+        <div class="action-buttons">
+          <button class="confirm">Confirm Booking</button>
+          <button class="cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
