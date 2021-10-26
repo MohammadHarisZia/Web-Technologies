@@ -1,0 +1,280 @@
+* {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+  background-image: url("/FA19-BCS-037-Assignment1-5A/hero-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  margin: 0rem auto;
+  border: none;
+  border-top: 0.1rem solid #343a40;
+}
+
+body {
+  margin: 0;
+}
+
+.bold-text {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #343a40;
+  line-height: 1.6rem;
+}
+
+.light-text {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #1864ab;
+}
+
+.large-digits {
+  font-size: 2rem;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space-between {
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.row-flex {
+  display: flex;
+}
+
+.flex-start {
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.centered {
+  align-items: center;
+  gap: 1rem;
+}
+
+.linked-pages {
+  color: #0b7285;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.fixed-nav {
+  border-radius: 3rem;
+  padding: 2rem;
+  background-color: rgba(104, 255, 167, 0.4);
+  margin: 1rem 0 0 5rem;
+  position: fixed;
+}
+
+.header-section {
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+.hero-section {
+  height: 100vh;
+  padding-top: 10rem;
+  background-image: url("/FA19-BCS-037-Assignment1-5A/white-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.skills-section {
+  height: 70vh;
+  padding-top: 10rem;
+  background-image: url("/FA19-BCS-037-Assignment1-5A/skills-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.education-section {
+  color: white;
+  height: 50vh;
+  padding-top: 5rem;
+  background-image: url("/FA19-BCS-037-Assignment1-5A/education-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Work-Section {
+  color: white;
+  height: 85vh;
+  padding-top: 5rem;
+  background-image: url("/FA19-BCS-037-Assignment1-5A/work-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.work-text {
+  margin-top: 1rem;
+}
+
+.work-text + p {
+  margin-top: 0.5rem;
+}
+
+.shrunk-div {
+  margin: 2rem 5rem 2rem 5rem;
+}
+
+.hero-logo {
+  gap: 0rem;
+}
+
+.pfp {
+  width: 15rem;
+}
+
+#logo-big {
+  width: 1.5rem;
+}
+
+.logo-large {
+  width: 1.2rem;
+}
+
+.logo-small {
+  width: 0.6rem;
+}
+
+.wax-seal {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.links {
+  font-size: 1.1rem;
+  color: #343a40;
+  font-weight: 500;
+}
+.quote-name {
+  margin-top: 0;
+  margin-left: 13rem;
+}
+
+.hero-main {
+  margin-right: 13rem;
+}
+
+.hero-main p,
+.hero-main em {
+  font-weight: 400;
+  color: #343a40;
+  font-family: "Indie Flower", cursive, Helvetica;
+}
+
+.stats {
+  margin-top: -4.5rem;
+}
+
+.svg {
+  height: 8rem;
+  width: 6rem;
+  background-color: #f8f9fa;
+  border-radius: 4rem;
+  margin-bottom: 5rem;
+}
+
+.svg > p {
+  margin-top: 0.5rem;
+}
+
+.svg-icons {
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.jamboard {
+  margin-top: 1rem;
+  width: 2rem;
+}
+
+.svg-text {
+  margin-top: -1rem;
+  font-weight: 500;
+}
+
+.education-container {
+  gap: 10rem;
+}
+
+.education-item {
+  width: 17rem;
+}
+
+.git,
+.fiverr,
+.linkedin,
+.hobbies {
+  background-color: #dee2e6;
+  padding: 3rem;
+}
+
+.fiverr-container,
+.github-container,
+.linkedin-container,
+.hobbies-container {
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.github-image {
+  width: 50rem;
+  height: 18rem;
+  order: 2;
+  border-radius: 2rem;
+}
+
+.fiverr-image,
+.linkedin-image {
+  width: 50rem;
+  order: 2;
+  border-radius: 2rem;
+}
+
+.fiverr-image2,
+.linkedin-image2 {
+  width: 50rem;
+  border-radius: 2rem;
+}
+
+.github-image2 {
+  width: 50rem;
+  height: 18rem;
+  border-radius: 2rem;
+}
+
+.hobbies-image2 {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 2rem;
+}
+
+.hobbies-image {
+  width: 30rem;
+  order: 2;
+  border-radius: 2rem;
+}
